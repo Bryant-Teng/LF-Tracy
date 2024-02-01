@@ -52,4 +52,4 @@ Leveraging the rich information extracted from light field (LF) cameras is instr
     (Overview)
 </p>
 <p align="center">
-    <div align=center><img src="assets/Figtwo.jpg" width="850" height="330" /></div>
+    <div align=center><img src="assets/Pipeline.png" width="850" height="330" /></div>
