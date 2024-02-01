@@ -29,8 +29,6 @@
 
 </div>
 
-<div align=center><img src="assets/Figone.jpg" width="820" height="400" /></div>
-
 ### Update
 - 2024.02.01- 2024.02.07 Codestuff unload.
 - 2024.02.01 Init repository.
@@ -52,4 +50,4 @@ Leveraging the rich information extracted from light field (LF) cameras is instr
     (Overview)
 </p>
 <p align="center">
-    <div align=center><img src="assets/Pipeline.png" width="850" height="330" /></div>
+    <div align=center><img src="asset/Pipeline.png" width="850" height="330" /></div>
