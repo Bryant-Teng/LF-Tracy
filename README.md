@@ -14,8 +14,6 @@
   <b>&middot;</b>
   <a href="https://www.researchgate.net/profile/Zhiyong-Li-3" target="_blank">Zhiyong&nbsp;Li</a> 
   <b>&middot;</b>
-  <a href="https://www.researchgate.net/profile/Rainer-Stiefelhagen" target="_blank">Rainer&nbsp;Stiefelhagen</a>
-  <b>&middot;</b>
   <a href="https://www.researchgate.net/profile/Kailun-Yang" target="_blank">Kailun&nbsp;Yang</a> 
 
  <br>
