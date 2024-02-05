@@ -30,7 +30,7 @@
 </div>
 
 ### Update
-- 2024.02.01- 2024.02.07 Codestuff unload.
+- 2024.02.01- 2024.02.28 Codestuff unload（Happy Chinese New Year）.
 - 2024.02.01 Init repository.
 - 2024.1.31 Release the [arXiv](https://arxiv.org/abs/2401.16712) version.
 
