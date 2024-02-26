@@ -309,7 +309,7 @@ class PyramidVisionTransformerV2(nn.Module):
     def forward_features_two(self, x):
         B = x.shape[0]
 
-        patch_embed = getattr(self, f"patch_embed{2}") # getattr()函数用于返回一个对象属性值
+        patch_embed = getattr(self, f"patch_embed{2}") 
         block = getattr(self, f"block{2}")
         norm = getattr(self, f"norm{2}")
         x, H, W = patch_embed(x)
@@ -323,7 +323,7 @@ class PyramidVisionTransformerV2(nn.Module):
         B = x.shape[0]
 
 
-        patch_embed = getattr(self, f"patch_embed{3}") # getattr()函数用于返回一个对象属性值
+        patch_embed = getattr(self, f"patch_embed{3}") 
         block = getattr(self, f"block{3}")
         norm = getattr(self, f"norm{3}")
         x, H, W = patch_embed(x)
@@ -338,7 +338,7 @@ class PyramidVisionTransformerV2(nn.Module):
     def forward_features_four(self, x):
         B = x.shape[0]
 
-        patch_embed = getattr(self, f"patch_embed{4}") # getattr()函数用于返回一个对象属性值
+        patch_embed = getattr(self, f"patch_embed{4}") 
         block = getattr(self, f"block{4}")
         norm = getattr(self, f"norm{4}")
         x, H, W = patch_embed(x)
