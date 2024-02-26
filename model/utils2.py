@@ -16,7 +16,7 @@ class MLP(nn.Module):
         x = self.proj(x)
         return x
 
-class DecoderHead(nn.Module):
+class Part2(nn.Module):
     def __init__(self,
                  in_channels=[64, 128, 320, 512],
                  num_classes=1,
@@ -25,7 +25,7 @@ class DecoderHead(nn.Module):
                  embed_dim=768,
                  align_corners=False):
         
-        super(DecoderHead, self).__init__()
+        super(Part2, self).__init__()
         self.num_classes = num_classes
         self.dropout_ratio = dropout_ratio
         self.align_corners = align_corners
