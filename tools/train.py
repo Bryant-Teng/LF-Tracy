@@ -119,7 +119,7 @@ class Logger:
 def print_network(model, name):
     num_params = 0
     for p in model.parameters():
-        num_params += p.numel()#numel用于返回数组中的元素个数
+        num_params += p.numel()
     print(name,' : ' ,'The number of parameters:{}'.format(num_params))
     return num_params
 
