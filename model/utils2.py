@@ -69,7 +69,6 @@ class Part2(nn.Module):
         
         c1_ = torch.cat((_c2,c1),dim=1)
         _c1 = self.linear_c1(c1_).permute(0,2,1).reshape(n, -1, c1.shape[2], c1.shape[3])
-        #_c = self.linear_fuse(torch.cat([_c4, _c3, _c2, _c1], dim=1))
         x = self.dropout(_c1)
         x = self.linear_pred(x)
         return x
