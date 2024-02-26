@@ -30,7 +30,7 @@
 </div>
 
 ### Update
-- 2024.02.01- 2024.02.28 Codestuff unload（Happy Chinese New Year）.
+- 2024.02.26 Code Version1 is released.
 - 2024.02.01 Init repository.
 - 2024.1.31 Release the [arXiv](https://arxiv.org/abs/2401.16712) version.
 
@@ -38,7 +38,8 @@
 
 ### TODO List
 
-- [ ] Code release. 
+- [ ] Result and Pretrain weights.
+- [ ] Newest Version is working on. 
 
 ### Abstract
 
