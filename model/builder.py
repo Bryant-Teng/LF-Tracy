@@ -7,7 +7,7 @@ class model(nn.Module):
     def __init__(self):
         super(model, self).__init__()
         self.focal_encoder = pvt_v2_b2()
-        self.decoder = Part2()
+        self.Part2 = Part2()
 
     def forward(self, x,x_stack, y):
         image = x_stack
