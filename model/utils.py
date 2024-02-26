@@ -10,21 +10,16 @@ from timm.models.layers import trunc_normal_
 
 class IF(Module):
     """ Position attention module"""
-    #Ref from SAGAN
     def __init__(self, in_dim,batch_size):
         super(IF, self).__init__()
         self.chanel_in = in_dim
-
         self.query_conv = Conv2d(in_channels=in_dim, out_channels=in_dim//8, kernel_size=1)
         self.key_conv = Conv2d(in_channels=in_dim, out_channels=in_dim//8, kernel_size=1)
         self.value_conv = Conv2d(in_channels=in_dim, out_channels=in_dim, kernel_size=1)
-
         self.gammas = []
         for i in range(0, 12):
             gamma = Parameter(torch.zeros(1)).to('cuda')
             self.gammas.append(gamma)
-
-
         self.softmax = Softmax(dim=-1)
 
 
@@ -44,14 +39,6 @@ class IF(Module):
                 m.bias.data.zero_()
 
     def forward(self, stack_list, y):
-        """
-            inputs :
-                stack_list : input feature list 12 X ( B X C X H X W)
-                y          : input feature map ( B X C X H X W)
-            returns :
-                out : attention value + input feature
-                attention: B X (HxW) X (HxW)
-        """
         outs=[]
         for i in stack_list:
             m_batchsize, C,height, width = i.size()
